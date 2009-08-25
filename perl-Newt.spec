@@ -2,7 +2,7 @@
 
 Name:           perl-Newt
 Version:        1.08
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        Edit configuration files through Augeas C library
 License:        Artistic
 Group:          System/Configuration/Other
@@ -13,6 +13,7 @@ Patch1:			newt-perl-1.08-typemap.patch
 Patch2:			newt-perl-1.08-fix.patch
 Patch3:			newt-perl-1.08-xs.patch
 Patch4:			newt-perl-1.08-lang.patch
+Patch5:			perl-Newt-bz385751.patch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildRequires:  perl-devel,newt-devel,popt-devel
 
@@ -26,6 +27,7 @@ Perl bindings for RedHat newt library
 %patch2 -p1 -b .fix
 %patch3 -p1 -b .exes
 %patch4 -p1 -b .lang
+%patch5 -p1 -b .bz385751
 rm -rf newtlib
 
 %build
