@@ -54,3 +54,19 @@ rm -rf $RPM_BUILD_ROOT
 %doc ChangeLog README
 %{perlvendorlib}/*
 %{_mandir}/man3/*
+
+
+%changelog
+* Wed Jan 25 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.08-3
++ Revision: 768358
+- svn commit -m mass rebuild of perl extension against perl 5.14.2
+
+* Wed Aug 26 2009 Bruno Cornec <bcornec@mandriva.org> 1.08-2mdv2010.0
++ Revision: 421312
+- Update to fedora -22 version to remove a AUTOLOAD warning with an additional patch
+
+* Sat Aug 22 2009 Bruno Cornec <bcornec@mandriva.org> 1.08-1mdv2010.0
++ Revision: 419436
+- Initial import based on Fedora package
+- create perl-Newt
+
