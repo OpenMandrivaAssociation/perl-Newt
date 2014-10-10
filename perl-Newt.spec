@@ -2,7 +2,7 @@
 
 Name:           perl-Newt
 Version:        1.08
-Release:	3
+Release:	4
 Summary:        Edit configuration files through Augeas C library
 License:        Artistic
 Group:          System/Configuration/Other
