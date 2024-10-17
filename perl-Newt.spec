@@ -6,7 +6,7 @@ Release:	5
 Summary:        Edit configuration files through Augeas C library
 License:        Artistic
 Group:          System/Configuration/Other
-URL:            http://search.cpan.org/dist/Newt
+URL:            https://search.cpan.org/dist/Newt
 Source0:        http://search.cpan.org/CPAN/authors/id/A/AM/AMEDINA/Newt-1.08.tar.gz
 Patch0:			newt-perl-1.08-debian.patch
 Patch1:			newt-perl-1.08-typemap.patch
